@@ -96,6 +96,8 @@ namespace assignment4
             Console.WriteLine("Total number of lines which contains word sea and Fare:" + chr);
         }
 
+        // number of lines contain fare but not war
+
         public void Wordfind2()
         {
             int chr = 0, y = 0, z = 0;
