@@ -122,6 +122,9 @@ namespace assignment4
             Console.WriteLine("Total number of Lines which contain fare but not war: " + z);
         }
 
+
+
+        // average number of letters per word
         public void NumLetters()
         {
 
@@ -130,7 +133,7 @@ namespace assignment4
             int num = 0;
             foreach (char letter in script)
             { num++; }
-            Console.WriteLine("Total number of letters per word: " + num);
+            Console.WriteLine("Average number of letters per word: " + num);
 
         }
 
