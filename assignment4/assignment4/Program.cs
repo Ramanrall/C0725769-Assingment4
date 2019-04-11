@@ -78,6 +78,9 @@ namespace assignment4
 
         }
 
+
+        // number of lines contain word sea and fare
+
         public void Wordfind()
 
         {
