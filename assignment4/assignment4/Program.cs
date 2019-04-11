@@ -16,6 +16,7 @@ namespace assignment4
         {
             Program p = new Program();
             p.Beowulf = new ArrayList();
+            p.Run();
         }
 
         public void Run() { this.ReadTextFiles(); }
@@ -23,7 +24,7 @@ namespace assignment4
         public void ReadTextFiles()
         {
             //Read file using streamReader.
-            using (StreamReader file = new StreamReader("c:/arear/.txt"))
+            using (StreamReader file = new StreamReader("U:/Users/725769/daman/Beowulf.txt"))
             {
                 int counter = 0;
                 string ln;
@@ -32,6 +33,7 @@ namespace assignment4
                 {
                     Console.WriteLine(ln);
                     Beowulf.Add(ln);
+                    counter++;
                 }
                 file.Close();
                 Console.WriteLine($"File has {counter} lines.");
